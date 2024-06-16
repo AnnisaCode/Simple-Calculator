@@ -24,7 +24,7 @@ class CalculatorController {
                 $result = 'Invalid input';
             }
         }
-        include 'views/calculator_view.php';
+        include 'views/calculator.view.php';
     }
 
     private function validateInput($num1, $num2, $operation) {
